@@ -1,22 +1,18 @@
 ---
 title: Reading List
-subtitle: a list of books I read
+subtitle: “Books are a uniquely portable magic”, Stephen King
 layout: "page"
 icon: fa-book
 order: 6
 ---
 
-I love books! Here are some I'm reading now:
+This is a list of books that I am reading or have recently finished. 
+Note that I write the title in the language I am reading it which might not be the original. 
 
-1. Robert Burton: *The Anatomy of Melancholy*
-2. Robert Musil: *The Man Without Qualities*
-3. Kazuo Ishiguro: *The Unconsoled*
-4. Malcolm Lowry: *Under the Volcano*
-5. Virginia Woolf: *The Waves*
-6. James Joyce: *Finnegans Wake*
-7. Thomas Wolfe: *Look Homeward, Angel*
-8. William Thackeray: *Pendennis*
-9. Karl Marx: *Capital*
-10. James Woodforde: *The Diary of A Country Parson*
+1. **Baruch Spinoza**: *La ética demostrada según el orden geométrico*
+2. **José Saramago**: *Caín*
+3. **Bernard Stiegler**: *La vértité du numérique*
+4. **Alberto Moravia**: *Gli Indifferenti*
+5. **Bernard Stiegler**: *La toile que nous voulons*
+6. **Niccolò Ammaniti**: *Comme Dio Commanda*
 
-source: [The Guardian](https://www.theguardian.com/books/booksblog/2011/jan/04/best-boring-books)
