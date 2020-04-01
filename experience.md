@@ -11,9 +11,11 @@ A project emerged within the [Chemical, Electric, and Biomedical Engineering Dep
 
 1. Revision of *l'état de l'art*, finding the [MultiResUNet architecture](https://github.com/nibtehaz/MultiResUNet).
 2. [Reimplementation](https://github.com/gmagannaDevelop/MyMultiResUNet) of said architecture.
-3. Training and testing the repository using [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb). 
+3. Training and testing the repository's models using [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb). 
 
+It is to be noted however, that very rapidly I found out the complications of training and testig Deep Learning models. For this reason the main focus of my work shifted towrads developing a logging system that could automatically register  hardware specs at model instantiation time as well as every function calls, notes, etc.
 
-You can find a pdf manual of the logging system I developed [here](/assets/docs/Segmed_Class_Example.pdf)
+The system I developed is hosted [here](https://github.com/gmagannaDevelop/segnet/blob/callback_test/segnet/utils/Segmed.py). You can find a pdf manual of it [here](/assets/docs/Segmed_Class_Example.pdf)
 
+# 
 
