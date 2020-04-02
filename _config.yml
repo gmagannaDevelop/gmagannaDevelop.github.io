@@ -63,3 +63,8 @@ google_analytics: UA-162555350-1
 #theme: jekyll-theme-prologue
 remote_theme: gmagannaDevelop/jekyll-theme-prologue
 collections: [sections]
+
+# Avoid unnecessary rendering:
+exclude:
+- TEMPLATE_LICENSE/
+
