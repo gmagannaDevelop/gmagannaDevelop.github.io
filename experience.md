@@ -15,7 +15,7 @@ A project emerged within the [Chemical, Electric, and Biomedical Engineering Dep
 
 It is to be noted however, that very rapidly I found out the complications of training and testig Deep Learning models. For this reason the main focus of my work shifted towrads developing a logging system that could automatically register  hardware specs at model instantiation time as well as every function calls, notes, etc.
 
-The system I developed is hosted [here](https://github.com/gmagannaDevelop/segnet/blob/callback_test/segnet/utils/Segmed.py). You can find a pdf manual of it [here](/assets/docs/Segmed_Class_Example.pdf)
+The system I developed is hosted [here](https://github.com/gmagannaDevelop/segnet/blob/callback_test/segnet/utils/Segmed.py). You can find a pdf manual of it [here](/assets/docs/Segmed_Class_Example.pdf).
 
 # 
 
