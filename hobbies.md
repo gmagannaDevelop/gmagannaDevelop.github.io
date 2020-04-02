@@ -3,7 +3,7 @@ title: My hobbies
 subtitle: Various things that I like to do during my spare time.
 layout: "page"
 icon: fa-chess
-order: 3
+order: 5 
 ---
 
 - Playing/composing music, mostly on these instruments:
@@ -14,3 +14,6 @@ order: 3
 
 - Cycling
 
+- Reading
+
+- Coding; sometimes on small, experimental languages.
