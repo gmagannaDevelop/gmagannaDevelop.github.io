@@ -20,6 +20,6 @@ order: 3
 - Learnt Italian.
 
 ## Secondary School
-# [Instituto Lux](https://www.institutolux.edu.mx/lux/secciones.php?id=4)
+# [Instituto Lux](https://www.institutolux.edu.mx/lux/secciones.php?id=4), Mexico. _2012-2015_
 - GPA : 9.1/10
 - [Bachillerato](https://es.wikipedia.org/wiki/Educaci%C3%B3n_media_superior_(M%C3%A9xico)) en ciencias biológicas.

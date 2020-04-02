@@ -29,6 +29,7 @@ hstar: <i class="fa fa-star-half"></i>
 - Operating Sytems, Shell Scripting Languages, Suites
     - GNU/Linux (Ubuntu-based mostly) {% for i in (1..5)%}{{ page.star }}{% endfor %}
     - macOS {% for i in (1..5)%}{{ page.star }}{% endfor %}
+    - git/GitHub {% for i in (1..5)%}{{ page.star }}{% endfor %}
     - [Fish](https://fishshell.com/) {% for i in (1..5)%}{{ page.star }}{% endfor %}
     - [Bash](https://www.gnu.org/software/bash/) {% for i in (1..5)%}{{ page.star }}{% endfor %}
     - Microsoft Office {% for i in (1..5)%}{{ page.star }}{% endfor %}
