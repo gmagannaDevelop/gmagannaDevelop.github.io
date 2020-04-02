@@ -1,4 +1,4 @@
-# My personal/protfolio website.
+# My personal/portfolio website.
  
 ## Using the incredible Jekyll Theme!
 
@@ -8,6 +8,10 @@
 
 # Credits
 
+Thanks to [@chrisbobbe](https://github.com/chrisbobbe) for the marvellous work done creating this theme.
+
+I'm actually using a slightly modified version of it, found on [my fork](https://github.com/gmagannaDevelop/jekyll-theme-prologue).
+
 Thanks to @andrewbanchich for his many Jekyll adaptations of HTML5 UP's elegant themes, which helped and inspired me, and of course many thanks to HTML5 UP.
 
-Original README and LICENSE found [here](https://github.com/gmagannaDevelop/gmagannaDevelop.github.io/tree/master/TEMPLATE_DOCS)
+Original README and LICENSE found [here](https://github.com/gmagannaDevelop/gmagannaDevelop.github.io/tree/master/TEMPLATE_LICENSE)
