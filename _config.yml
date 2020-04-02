@@ -57,7 +57,7 @@ stackoverflow_url: https://stackoverflow.com/users/7343160/maganna-dev
 #dribbble_url:
 
 # Google Analytics Tracking ID goes here:
-google_analytics:
+google_analytics: UA-162555350-1
 
 # The following settings are NECESSARY for the Prologue theme to run:
 #theme: jekyll-theme-prologue
