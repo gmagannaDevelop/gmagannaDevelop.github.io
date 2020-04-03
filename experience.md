@@ -54,10 +54,11 @@ My main collaborator and mentor during this period was **Edwin Bedolla _B.Sc._**
 <p style="text-align: justify">
 After finishing a PostDoc at <a href="https://www.caltech.edu/"> Caltech </a>, 
 Marco Heinen became an associate professor at DCI, in the Physical Engineering Departement.
-He requested Francisco Saste to refer him to 
+He requested Francisco Sastre to refer him to 
 undergraduate students who were interested in 
 Statistical mechanics and/or Computer science. 
 I was amongst that group of students, we thus started working together.
+With Marco my work mostly focused on the following tasks:
 </p>
 
 - Development of ideal gas simulations. Aproximating the radial distribution function with 
