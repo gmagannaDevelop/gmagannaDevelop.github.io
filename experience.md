@@ -6,6 +6,7 @@ icon: fa-briefcase
 order: 2
 ---
 
+
 ## Developer @ [DCI-NET](https://github.com/DCI-NET)
 # Universidad de Guanajuato, Mexico. 2019-2020
 A project emerged within the [Chemical, Electric, and Biomedical Engineering Department](http://www.dci.ugto.mx/diqeb/) of the Science and Engineering Division of the [University of Guanajuato](https://www.ugto.mx/). The purpose of it was developing a Deep Learning repository for Semantic Segmentation of Biomedical Images. Being part of the first group of undergraduate students who worked on this project, my work mainly focused on the following tasks:
@@ -18,8 +19,12 @@ It is to be noted however, that I rapidly encountered the complications of train
 
 The system I developed is hosted [here](https://github.com/gmagannaDevelop/segnet/blob/callback_test/segnet/utils/Segmed.py). You can find a pdf manual of it (_in Spanish_) [here](/assets/docs/Segmed_Class_Example.pdf).
 
-My main collaborator and mentor during this period was **Edwin Bedolla _B.Sc._**  <a href="https://github.com/edwinb-ai" class="icon-b fa-github"></a> <a href="mailto:developeredwin@gmail.com" class="icon fa-envelope"></a>
+{% assign themail = "developeredwin@gmail.com" %}
+{% assign theurl = "https://github.com/edwinb-ai" %}
+My main collaborator and mentor during this period was **Edwin Bedolla _B.Sc._**<a href="{{ theurl }}" class="icon-b fa-github"></a><a href="mailto:{{ themail }}" class="icon fa-envelope"></a>
 
 
-## Assistant Researcher
+## Assistant Researcher @ [U. de Guanajauato](http://www.dci.ugto.mx/)
+# Under the supervision of **Marco Heinen **PhD**
+
 
