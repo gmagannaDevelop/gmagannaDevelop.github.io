@@ -5,6 +5,11 @@ subtitle: Positions occupied so far.
 icon: fa-briefcase
 order: 2
 ---
+{% comment %}
+Snippets
+<a href="{{ theurl }}" class="icon-b fa-github"></a>
+<a href="mailto:{{ themail }}" class="icon fa-envelope"></a>
+{% endcomment %}
 
 
 ## Developer @ [DCI-NET](https://github.com/DCI-NET)
@@ -24,7 +29,13 @@ The system I developed is hosted [here](https://github.com/gmagannaDevelop/segne
 My main collaborator and mentor during this period was **Edwin Bedolla _B.Sc._**<a href="{{ theurl }}" class="icon-b fa-github"></a><a href="mailto:{{ themail }}" class="icon fa-envelope"></a>
 
 
+{% assign themail = "marco@marco-heinen.de" %}
 ## Assistant Researcher @ [U. de Guanajauato](http://www.dci.ugto.mx/)
-# Under the supervision of **Marco Heinen **PhD**
+# Under the supervision of **Marco Heinen** PhD <a href="mailto:{{ themail }}" class="icon fa-envelope"></a>
+
+
+
+{% assign themail = "sastre@fisica.ugto.mx" %}
+# Under the supervision of **Francisco Sastre** PhD <a href="mailto:{{ themail }}" class="icon fa-envelope"></a>
 
 
