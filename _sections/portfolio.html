@@ -1,19 +1,24 @@
 ---
-title: Portfolio
+title: Overview
 icon: fa-th
 order: 2
 ---
 
+{%- assign _posts = site.posts | sort: 'date' | reverse -%}
 <p>
-    A quick view of my latest projects.
+    A quick view of my latest projects, full portfolio <a href=/portfolio.html> here </a>.
 </p>
 
   <div class="row">
     <div class="4u 12u$(mobile)">
       <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'assets/images/GlcJournal/main.jpeg' | relative_url }}" alt="Ipsum Feugiat" /></a>
+        {% assign glcjournal = _posts | where: "title", "GlcJournal" | first %}
+        <a href="{{- glcjournal.url | absolute_url -}}" 
+            class="image fit">
+            <img src="{{ 'assets/images/GlcJournal/main.jpeg' | relative_url }}" alt="Ipsum Feugiat" />
+        </a>
         <header>
-          <h3>GlcJournal</h3>
+          <h3>{{ glcjournal.title }}</h3>
         </header>
       </div>
       <div class="item">
