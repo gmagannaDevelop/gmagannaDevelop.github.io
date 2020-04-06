@@ -1,6 +1,6 @@
 ---
-title: Second Post
-author: Chris
+title: DiabManager
+author: Gustavo Magaña López
 layout: post
 ---
 
