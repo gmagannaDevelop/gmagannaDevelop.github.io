@@ -6,7 +6,7 @@ order: 2
 
 {%- assign _posts = site.posts | sort: 'date' | reverse -%}
 <p>
-    A quick view of my latest projects, full portfolio <a href=/portfolio.html> here </a>.
+    A quick view of some of my projects. This section is under construction, please refer to my github. 
 </p>
 
   <div class="row">
@@ -21,15 +21,6 @@ order: 2
           <h3>{{ glcjournal.title }}</h3>
         </header>
       </div>
-      <div class="item">
-        {% assign segmed = _posts | where: "title", "Segmed" | first %}
-        <a href="#" class="image fit">
-            <img src="{{ 'assets/images/pic03.jpg' | relative_url }}" alt="Rhoncus Semper" />
-        </a>
-        <header>
-          <h3>Segmed</h3>
-        </header>
-      </div>
     </div>
     <div class="4u 12u$(mobile)">
       <div class="item">
@@ -39,26 +30,6 @@ order: 2
         </a>
         <header>
           <h3>DiabManager</h3>
-        </header>
-      </div>
-      <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'assets/images/pic05.jpg' | relative_url }}" alt="Natoque Vitae" /></a>
-        <header>
-          <h3>Drive</h3>
-        </header>
-      </div>
-    </div>
-    <div class="4u 12u$(mobile)">
-      <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'assets/images/pic06.jpg' | relative_url }}" alt="Dolor Penatibus" /></a>
-        <header>
-          <h3>Dolor Penatibus</h3>
-        </header>
-      </div>
-      <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'assets/images/pic07.jpg' | relative_url }}" alt="Orci Convallis" /></a>
-        <header>
-          <h3>Orci Convallis</h3>
         </header>
       </div>
     </div>
