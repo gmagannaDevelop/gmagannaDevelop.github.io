@@ -42,9 +42,12 @@ order: 2
         </header>
       </div>
       <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'assets/images/pic05.jpg' | relative_url }}" alt="Natoque Vitae" /></a>
+        {% assign segmed = _posts | where: "title", "Segmed" | first %}
+        <a href="{{- segmed.url |  absolute_url -}}" class="image fit">
+            <img src="{{ 'assets/images/Segmed/logs_example.png' | relative_url }}" alt="{{ segmed.title }}" />
+        </a>
         <header>
-          <h3>Drive</h3>
+          <h3>{{ segmed.title }}</h3>
         </header>
       </div>
     </div>
