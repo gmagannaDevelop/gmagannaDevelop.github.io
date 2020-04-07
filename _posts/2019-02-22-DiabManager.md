@@ -1,8 +1,7 @@
 ---
 title: DiabManager
 author: Gustavo Magaña López, Mathis Delehouzée
-icon: fa-lightbulb
-icon-style: regular
+icon: fa-notes-medical
 layout: post
 ---
 
