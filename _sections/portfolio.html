@@ -32,5 +32,28 @@ order: 2
           <h3>DiabManager</h3>
         </header>
       </div>
+      <div class="item">
+        {% assign segmed = _posts | where: "title", "Segmed" | first %}
+        <a href="{{- segmed.url |  absolute_url -}}" class="image fit">
+            <img src="{{ 'assets/images/Segmed/logs_example.png' | relative_url }}" alt="{{ segmed.title }}" />
+        </a>
+        <header>
+          <h3>{{ segmed.title }}</h3>
+        </header>
+      </div>
+    </div>
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        <a href="#" class="image fit"><img src="{{ 'assets/images/pic06.jpg' | relative_url }}" alt="Dolor Penatibus" /></a>
+        <header>
+          <h3>Dolor Penatibus</h3>
+        </header>
+      </div>
+      <div class="item">
+        <a href="#" class="image fit"><img src="{{ 'assets/images/pic07.jpg' | relative_url }}" alt="Orci Convallis" /></a>
+        <header>
+          <h3>Orci Convallis</h3>
+        </header>
+      </div>
     </div>
   </div>
