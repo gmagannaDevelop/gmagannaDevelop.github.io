@@ -44,9 +44,12 @@ order: 2
     </div>
     <div class="4u 12u$(mobile)">
       <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'assets/images/pic06.jpg' | relative_url }}" alt="Dolor Penatibus" /></a>
+        {% assign biostat = _posts | where: "title", "BioStat" | first %}
+        <a href="{{- biostat.url | absolute_url -}}" class="image fit">
+            <img src="{{ 'assets/images/BioStat/diff1.png' | relative_url }}" alt="{{ biostat.title }}" />
+        </a>
         <header>
-          <h3>Dolor Penatibus</h3>
+          <h3>{{ biostat.title }}</h3>
         </header>
       </div>
       <div class="item">
