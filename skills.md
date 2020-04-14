@@ -51,6 +51,6 @@ connection to remote systems via [_SSH_](https://en.wikipedia.org/wiki/Secure_Sh
 
 - Typesetting, Web Development
     - **LaTeX**: 5 years typesetting university laboratory and project reports on my machine and [online](https://www.overleaf.com/).
-    - **HTML/CSS**: _Bootstrap_, _HTML5 UP_).
+    - **HTML/CSS**: _Bootstrap_, _HTML5 UP_.
     - [**Jekyll**](https://jekyllrb.com/)/[**GitHub Pages**](https://pages.github.com/): This site was built using Jekyll on GH Pages!
 
