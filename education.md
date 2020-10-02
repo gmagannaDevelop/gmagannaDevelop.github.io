@@ -6,6 +6,11 @@ icon: fa-graduation-cap
 order: 3
 ---
 
+## Master's Degree : Biostatistics and Computational Biology
+# [Université Paris-Saclay](https://www.sciences.universite-paris-saclay.fr/), France _2020-present_
+Currently undergoing the first year of the programme.
+
+
 ## Bachelor's Degree : Biomedical Engineering
 # [Universidad de Guanajuato](https://www.ugto.mx/), Mexico. _2015-2020_
 
