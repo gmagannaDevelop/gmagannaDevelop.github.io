@@ -65,6 +65,5 @@ remote_theme: gmagannaDevelop/jekyll-theme-prologue
 collections: [sections]
 
 # Avoid unnecessary rendering:
-exclude:
-- TEMPLATE_LICENSE/
+exclude: vendor
 
