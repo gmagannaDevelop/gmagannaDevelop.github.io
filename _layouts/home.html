@@ -1,5 +1,6 @@
 ---
 layout: default
+hidden: false
 ---
 {%- assign _sections = site.sections | sort: 'order' -%}
 {%- include header.html scrolly_nav=_sections -%}
@@ -10,6 +11,8 @@ layout: default
 	{%- endif -%}
 	<!-- Sections -->
 	{%- for _section in _sections -%}
+            {%- if _section.hidden != true -%}
 		{%- include section.html title=_section.title photo=_section.cover-photo photo-alt=_section.cover-photo-alt auto-header=_section.auto-header content=_section.content -%}
+	    {%- endif -%}
 	{%- endfor -%}
 </div>

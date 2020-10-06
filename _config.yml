@@ -66,4 +66,6 @@ collections: [sections]
 
 # Avoid unnecessary rendering:
 exclude: vendor
-
+include:
+  - foo
+  - private
