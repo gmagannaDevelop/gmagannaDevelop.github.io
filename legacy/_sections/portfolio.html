@@ -1,0 +1,65 @@
+---
+title: Overview
+icon: fa-th
+order: 2
+---
+
+{%- assign _posts = site.posts | sort: 'date' | reverse -%}
+<p>
+    A quick view of some of my projects. This section is under construction, please refer to my github. 
+</p>
+
+  <div class="row">
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        {% assign glcjournal = _posts | where: "title", "GlcJournal" | first %}
+        <a href="{{- glcjournal.url | absolute_url -}}" 
+            class="image fit">
+            <img src="{{ 'assets/images/GlcJournal/main.jpeg' | relative_url }}" alt="{{ glcjournal.title }}"/>
+        </a>
+        <header>
+          <h3>{{ glcjournal.title }}</h3>
+        </header>
+      </div>
+    </div>
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        {% assign diabmanager = _posts | where: "title", "DiabManager" | first %}
+        <a href="{{- diabmanager.url | absolute_url -}}" class="image fit">
+            <img src="{{ 'assets/images/DiabManager/test.png' | relative_url }}" alt="{{ diabmanager.title }}" />
+        </a>
+        <header>
+          <h3>DiabManager</h3>
+        </header>
+      </div>
+      <div class="item">
+        {% assign segmed = _posts | where: "title", "Segmed" | first %}
+        <a href="{{- segmed.url |  absolute_url -}}" class="image fit">
+            <img src="{{ 'assets/images/Segmed/logs_example.png' | relative_url }}" alt="{{ segmed.title }}" />
+        </a>
+        <header>
+          <h3>{{ segmed.title }}</h3>
+        </header>
+      </div>
+    </div>
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        {% assign biostat = _posts | where: "title", "BioStat" | first %}
+        <a href="{{- biostat.url | absolute_url -}}" class="image fit">
+            <img src="{{ 'assets/images/BioStat/diff1.png' | relative_url }}" alt="{{ biostat.title }}" />
+        </a>
+        <header>
+          <h3>{{ biostat.title }}</h3>
+        </header>
+      </div>
+      <div class="item">
+        {% assign statmulti = _posts | where: "title", "AnalyseChercheurs" | first %}
+        <a href="{{- statmulti.url | absolute_url -}}" class="image fit">
+            <img src="{{ 'assets/images/StatMultiDim/acp.png' | relative_url }}" alt="{{ statmulti.title }}" />
+        </a>
+        <header>
+          <h3>{{ statmulti.title }}</h3>
+        </header>
+      </div>
+    </div>
+  </div>
