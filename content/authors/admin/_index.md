@@ -55,7 +55,7 @@ _Synthesis and Learning of Boolean Network Ensembles for Cellular Reprogramming_
 under the supervision of [Loïc Paulevé][pauleve].
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV-Gustavo_MAGANA_LOPEZ.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
 [pauleve]: https://loicpauleve.name/ "Loïc Paulevé"
 [ups]: https://www.universite-paris-saclay.fr/ "Université Paris-Saclay"
