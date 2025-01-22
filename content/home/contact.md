@@ -25,9 +25,9 @@ content:
     country: France
     country_code: FR
   directions: Office 256
-  office_hours:
-    - 'Monday-Friday'
-    - '9am-5pm'
+  #office_hours:
+  #  - 'Monday-Friday'
+  #  - '9am-5pm'
 
 design:
   columns: '2'
